@@ -1,0 +1,157 @@
+body{
+    /* background-color:rgb(191, 200, 226); */
+    background-image:url("6.jpg");
+    background-size:cover;
+}
+@media (min-width: 651px) and (max-width: 1500px)
+{
+    .content{
+
+        max-width: 500px;
+    }
+  .left{
+        transition: all 1s ease-in-out 0s;
+        width: 800px;
+    }
+}
+@media (min-width: 451px) and (max-width:650px)
+{
+    .content{
+        max-width: 350px;
+    }
+  .left{
+        transition: all 1s ease-in-out 0s;
+        width: 550px;
+    }  
+}
+@media (min-width: 300px) and (max-width:450px)
+{   
+    .content{
+        max-width: 250px;
+    }
+    .left{
+        transition: all 1s ease-in-out 0s;
+        width: 350px;
+        margin-left: 5px;
+    }
+}
+@media (min-width: 100px) and (max-width: 299px)
+{
+    .content{
+        max-width: 150px;
+    }
+    .left{
+        transition: all 1s ease-in-out 0s;
+        width: 170px;
+        margin-left: 3px;
+    }
+}
+legend{
+    transition: all 3s ease-in-out 2s;
+    text-align:left;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:beige;
+    text-shadow: 1px 1px white;
+   
+}
+fieldset{
+    transition: all 2s ease-in-out;
+    border:4px outset grey;
+    width:85vw;
+    position: relative;
+    word-wrap:break-word ;
+    word-break: keep-all;
+}
+/* specied this fieldset position to relative to place the footer  */
+.left{
+    transition: all 4s ease-in-out 2s;
+    margin-left:10px; 
+    max-width:20%;
+    max-height: 100%;
+    position: relative;
+    float:left;
+    border:2px outset white;
+    background-color:#4D5061;
+    box-shadow:2px 2px 4px white;
+    word-wrap:break-word ;
+    word-break:keep-all;
+    margin-right: 20px;
+
+}
+
+img{
+    transition: all 2s ease-in-out 1s;
+    margin: 1% 5% 0% 5%;
+    width: 90%;
+    position:relative;
+    border-radius: 45%;
+    border:2px outset white;
+}
+
+.right{
+    transition: all 4s ease-in-out 2s;
+    position:relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:lightgoldenrodyellow;
+    margin-right:auto; 
+}
+
+.content{
+    
+    transition: all 5s ease-in-out 2s;
+    animation: move 2s ease-in-out 0s 5 normal;
+    margin-bottom: 40px;
+    border:2px outset black;
+    margin-left:25%;
+    padding-left:10px;
+    margin-right:0px;
+    position:relative;
+    background-color:#5C80BC;
+
+}
+
+b{
+    font-size: 20px;
+    color:#3CBC8D;
+    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family:cursive;
+    
+}
+
+address{
+    border:2px dotted black;
+    position: relative;
+    bottom:0px ;
+}
+
+address b{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: greenyellow;
+}
+
+#info{
+    transition: all 5s ease-in-out 3s;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    color:white;
+    font-family: courier;
+}
+hr{
+    transition: all 3s ease-in-out 4s;
+    border-color: lawngreen;
+}
+h4{
+    transition: all 4s ease-in-out 4s;
+    display: inline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(245, 245, 109);
+}
+ footer{
+    position:absolute;
+    bottom:1px;
+    right:1px;
+    color:#3CBC8D;
+    background-color: black;
+ }
